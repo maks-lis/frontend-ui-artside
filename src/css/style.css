@@ -8,7 +8,7 @@
 }
 @font-face{
     font-family: 'LightAlternate';
-    src: url(./font/DIN\ LightAlternate\ Regular.otf);
+    src: url(../font/DIN\ LightAlternate\ Regular.otf);
     font-weight: normal;
     font-style: normal;
 }
@@ -30,14 +30,17 @@ a{
 a:hover{
 	text-decoration: underline;
 }
-h2 {	
+h2 {
+	
 	font-family: 'DINCyr', 'Arial', sans-serif; 
     line-height: normal;
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
     color: #616161;
-    margin-bottom: 20px;	
+    
+    margin-bottom: 20px;
+	
 }
 p{
     margin-bottom: 15px;
@@ -114,12 +117,15 @@ ul li{
     height: auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 46px;   
+    margin-bottom: 46px;
+    
 }
 
 .main-info .teams{
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+    
+    
 }
 .main-info .teams .photo{
     width: 78px;
@@ -166,9 +172,11 @@ ul li{
 }
 .footer .link{
     display: inline-block;
-    vertical-align: top;   
+    vertical-align: top;
+    
 }
 .footer .link-vacancy{
+    
     margin-left: 20px;
 }
 
