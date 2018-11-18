@@ -12,9 +12,11 @@
     font-weight: normal;
     font-style: normal;
 }
-
+html{
+    height: 100%;
+}
 body{
-    background: url(../gallery/bg-body.jpg);
+    background: url(../images/bg-body.jpg);
     font-family: Verdana, Arial, sans-serif;
 	font-size: 11px;
     line-height: normal;
@@ -64,8 +66,10 @@ ul li{
 	position: relative;
     height: 150px;
     margin-bottom: 50px;
+    
 		
 }
+/* не могу вырезать иначе логотип, в данный момент - зависает фотошоп */
 .header .logo{
     position: absolute;
     left: 0;
@@ -121,19 +125,21 @@ ul li{
     display: flex;
     justify-content: space-between;
     margin-bottom: 46px;
+    padding-bottom: 100px;
+
     
 }
 .main-info .article:first-child{
     margin-bottom: 45px;
 }
-.main-info .teams{
+.teams{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     
     
 }
-.main-info .teams .photo{
+.teams .photo{
     width: 78px;
     height: 78px;
     
@@ -141,7 +147,7 @@ ul li{
     overflow: hidden;
     margin-right: 12px;
 }
-.main-info .teams img{
+.teams img{
     display: block;
     position: absolute;
     top: 0;
@@ -155,13 +161,13 @@ ul li{
 .teams .persons .name{
     width: 136px;
 }
-.main-info .teams li{
+.teams li{
     display: flex;
     margin-bottom: 16px;
 }
-.hfooter{
+/* .hfooter{
     height: 100px;
-}
+} */
 
  /* .service{
     margin-left: 250px;
@@ -178,6 +184,7 @@ ul li{
     font-weight: 400;
     line-height: 15px;
     padding-top: 45px;
+  
 }
 .footer .link{
     display: inline-block;
